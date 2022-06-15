@@ -9,7 +9,7 @@ import {
   VolumeUpIcon,
   XIcon,
 } from "@heroicons/react/outline";
-import { Element, Genre, Movie } from "../types";
+import { Element, Genre } from "../types";
 import MuiModal from "@mui/material/Modal";
 
 function Modal() {
