@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Movie } from "../typings";
+import { Movie } from "../types";
 import Image from "next/image";
 import { imageSrcUrl } from "../constants/movie";
 import { FaPlay } from "react-icons/fa";

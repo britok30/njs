@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
-import { Movie } from "../typings";
+import MovieRow from "../components/MovieRow";
+import { Movie } from "../types";
 import requests from "../utils/requests";
 
 interface HomeProps {
@@ -32,15 +33,18 @@ const Home = ({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main>
+      <main className=" relative pl-4 pb-24 lg:space-y-24 lg:pl-16">
         <Banner netflixOriginals={netflixOriginals} />
         <section>
-          {/* Row */}
-          {/* Row */}
-          {/* Row */}
-          {/* Row */}
-          {/* Row */}
-          {/* Row */}
+          <MovieRow title="Trending Now" movies={trendingNow} />
+          <MovieRow title="Top Rated" movies={topRated} />
+          <MovieRow title="Action Thrillers" movies={actionMovies} />
+          {/* My List */}
+
+          <MovieRow title="Comedies" movies={comedyMovies} />
+          <MovieRow title="Scary Movies" movies={horrorMovies} />
+          <MovieRow title="Romance Movies" movies={romanceMovies} />
+          <MovieRow title="Documentaries" movies={documentaries} />
         </section>
         {/* Modal */}
       </main>
