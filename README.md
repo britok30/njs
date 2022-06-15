@@ -1,3 +1,10 @@
+# NJS 
+![Screen Shot 2022-06-15 at 2 12 05 AM](https://user-images.githubusercontent.com/52144063/173762375-917b03d4-eb1e-4ed7-922c-0be87852acd7.png)
+![Screen Shot 2022-06-15 at 2 14 14 AM](https://user-images.githubusercontent.com/52144063/173762381-dd01d91e-31f8-4c57-a2fe-56b80efde8f2.png)
+![Screen Shot 2022-06-15 at 2 42 08 AM](https://user-images.githubusercontent.com/52144063/173762384-849e75ae-699c-4d25-a889-dd41666f766f.png)
+
+NJS is a Netflix clone built using Next.js, React, TypeScript and Tailwind.
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
