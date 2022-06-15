@@ -19,16 +19,6 @@ function Modal() {
   const [muted, setMuted] = useState(true);
   const [genres, setGenres] = useState<Genre[]>([]);
 
-  const toastStyle = {
-    background: "white",
-    color: "black",
-    fontWeight: "bold",
-    fontSize: "16px",
-    padding: "15px",
-    borderRadius: "9999px",
-    maxWidth: "1000px",
-  };
-
   useEffect(() => {
     if (!movie) return;
 
@@ -117,7 +107,7 @@ function Modal() {
             <div className="flex  gap-x-10 gap-y-4 font-light md:flex-row">
               <div className="flex-col">
                 <h2 className="font-semibold tracking-wide text-3xl text-red-600 pb-4">
-                  {movie?.name}
+                  {movie?.title || movie?.name || movie?.original_name}
                 </h2>
                 <p className="w-5/6">{movie?.overview}</p>
               </div>
